@@ -26,7 +26,7 @@ android {
         applicationId = "df.D10slice"
         minSdk = 32
         targetSdk = 37
-        versionCode = 601
+        versionCode = 407
         versionName = "6.1"
 
         ndk {
