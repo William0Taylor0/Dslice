@@ -27,7 +27,7 @@ android {
         minSdk = 32
         targetSdk = 37
         versionCode = 407
-        versionName = "6.1"
+        versionName = "6.2"
 
         ndk {
             abiFilters += listOf("arm64-v8a")
@@ -85,7 +85,7 @@ android {
 androidComponents {
     onVariants { variant ->
         variant.outputs.forEach { output ->
-            output.outputFileName.set(output.versionName.map { vn -> "Dslice_${vn}.apk" })
+            output.outputFileName.set(output.versionName.map { vn -> "Dslice${vn}.apk" })
         }
     }
 }
